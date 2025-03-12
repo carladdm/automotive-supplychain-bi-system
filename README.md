@@ -1,0 +1,2 @@
+# Implementation a BI system
+ This project proposes the creation of a business intelligence (BI) model using a fictitious company and simulated data, with the objective of demonstrating the implementation of a complete BI system. It covers from data ingestion, ETL (Extraction, Transformation and Loading), to analysis and visualization of the information in Power BI, providing a comprehensive view of the process.
