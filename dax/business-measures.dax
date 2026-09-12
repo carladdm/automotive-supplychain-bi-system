@@ -1,0 +1,38 @@
+// ==============================================================================
+// Caminos Autopartes S.L. - Core Analytical Measures
+// ==============================================================================
+
+// --- Sales Domain ---
+TotalVentas = 
+SUM(ventas2020_2024[MontoTotal])
+
+TicketPromedio = 
+DIVIDE(
+    [TotalVentas], 
+    COUNT(ventas2020_2024[VentaID]), 
+    0
+)
+
+VentasPorAño = 
+CALCULATE(
+    [TotalVentas],
+    TREATAS(VALUES(ventas2020_2024[AñoVenta]), ventas2020_2024[AñoVenta])
+)
+
+// --- Procurement Domain ---
+TotalCompras = 
+SUM(compras2023_2024[CostoTotalCompra])
+
+ComprasPorAño = 
+CALCULATE(
+    [TotalCompras],
+    TREATAS(VALUES(compras2023_2024[AñoCompra]), compras2023_2024[AñoCompra])
+)
+
+// --- Inventory Performance ---
+RotacionInventario = 
+DIVIDE(
+    SUM(ventas2020_2024[CantidadVenta]),
+    SUM(productos[Stock]),
+    0
+)

@@ -1,0 +1,30 @@
+# Python cache & runtimes
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+
+# Data isolation
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Power BI local cache
+*.pbit
+*.pbix.temp
+*.abf
+
+# Credentials & environment variables
+.env
+*.env
+secrets.json
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
