@@ -144,6 +144,12 @@ flake8 src/ tests/
 
 ---
 
+## 🤝 Contributing & Feedback
+
+Contributions, architectural suggestions, and feedback are welcome. If you identify opportunities for optimization or wish to extend the pipeline, feel free to open an **Issue** or submit a **Pull Request**.
+
+---
+
 ## 👤 Author & Maintainer
 
 **Carla Di Monno**  Data Scientist | M.Sc. in Data Science & Big Data - Chemical Engineer  
