@@ -137,7 +137,16 @@ flake8 src/ tests/
 
 ---
 
-## Engineering Roadmap
+## 🗺️ Engineering Roadmap
 
 * **Dimensional Governance:** Establish a conformed `Dim_Calendario` to unify cross-table Time Intelligence; denormalize `Dim_Categorias` into `Dim_Productos` to ensure strict single-direction filter propagation.
 * **CI/CD Automation:** Implement GitHub Actions workflows to automate `black`, `flake8`, and `pytest` execution on branch integration.
+
+---
+
+## 👤 Author & Maintainer
+
+**Carla Di Monno**  Data Scientist | M.Sc. in Data Science & Big Data - Chemical Engineer  
+
+[![GitHub](https://img.shields.io/badge/GitHub-carladdm-181717?logo=github&logoColor=white)](https://github.com/carladdm)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ing--carladimonno-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ing-carladimonno)
