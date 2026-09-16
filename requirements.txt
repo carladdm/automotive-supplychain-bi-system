@@ -2,10 +2,10 @@ pandas==2.2.2
 numpy==1.26.4
 SQLAlchemy==2.0.31
 PyMySQL==1.1.1
-cryptography==42.0.8
+cryptography>=43.0.1
 openpyxl==3.1.5
-pyarrow==16.1.0
-python-dotenv==1.0.1
-pytest==8.2.2
-black==24.4.2
+pyarrow>=23.0.1
+python-dotenv>=1.2.2
+pytest>=9.0.3
+black>=26.3.1
 flake8==7.1.0
